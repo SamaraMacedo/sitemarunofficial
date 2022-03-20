@@ -480,9 +480,9 @@ li{
         margin-left: 30px;
     }
     .menulink{
-        font-size: 18px;
+        font-size: 15px;
         text-decoration: none;
-        margin-left:30px;
+        margin-left:12px;
         color:white;
     }
     .menu{
@@ -688,6 +688,7 @@ li{
         .sigamarunbh{
             margin-top: 10px;
             background-image: url('assets/fundodourado.jpg');
+            background-size: 400px;
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -698,7 +699,7 @@ li{
         }
         .fundoimagens{
             display: flex;
-            width: 100%;
+            width: 500;
             height:300px;
             background-image: url('assets/artesemfundo.png');
             background-size: 200px;
@@ -757,18 +758,18 @@ li{
             width: 280px;
         }
         .siga04{
-            display: block;
             width: 100%;
             width: 155px;
             height: 155px;
             padding-top: 19px;
+            display: none;
         }
         .boxsiga05{
             position: relative;
             width: 280px;
         }
         .siga05{
-            display: block;
+            display: none;
             width: 155px;
             height: 155px;
             padding-top: 19px;
@@ -778,21 +779,22 @@ li{
             width: 280px;
         }
         .siga06{
-            display: block;
+           
             width: 155px;
             height: 155px;
             padding-top: 19px;
+            display: none;
         }
         .boxsiga07{
             position: relative;
             width: 280px;
         }
-        .siga07{
-            display: block;
+         .siga07{
+            display: none;
             width: 155px;
             height: 155px;
             padding-top: 19px;
-        }
+        } 
         .informativo{
             display: inline-block;
             margin: 0;
@@ -831,8 +833,8 @@ li{
         }
 
         .mapa{
-            width: 400px;
-            height: 250px;
+            width: 500px;
+            height: 450px;
         }
 
         .footer{
