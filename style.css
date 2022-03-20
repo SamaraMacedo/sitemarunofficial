@@ -1,0 +1,895 @@
+@font-face {
+    font-family:'bentosfont' ;
+    src: url('/assets/BentonSans\ Condensed\ Regular.otf') format('opentype');
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'bentosfont';
+    border: none;
+}
+/* bottomtopo */
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+}
+/* Sessão Home */ 
+    .home{
+    display: flex;
+    height: 250px;
+    background-color: #B83D24;
+    background-image: url('assets/artesemfundo.png');
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-position: 0px 135px;
+    justify-content: space-between; 
+}
+.logo{
+    margin:30px 0px 0px 80px;
+}
+.menulink{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left:50px;
+    color:white;
+}
+.menulink:hover{
+    color: #E27B01;
+}
+.menu{
+    background-size: cover;
+    margin:14px 20px 0px -603px;
+    padding:25px;
+    color: white;
+}
+.insta{
+    padding-top: 14px;
+    margin:20px 200px 0px 100px;
+    width: 35px;
+    height: 35px;
+   
+} 
+.whatsap{
+    padding-top: 14px;
+    margin:17px -121px 0px 42px;
+    width: 38px;
+    height: 38px;
+}
+.whatsaplink{
+    text-decoration: none;
+    padding-top: 2px;
+    margin:0px 200px 0px -1214px;
+}
+.instalink{
+    text-decoration: none;
+    padding-top: 2px;
+    margin:0px 200px 0px -1214px;
+    width: 35px;
+    height: 35px; 
+}
+/* Sessão Hero */
+    .hero1{
+    padding: 15px;
+    background-image:url('assets/hero1.png');
+    background-size: cover;
+    width:1393px;
+    height: 620px; 
+}
+strong{
+    color:#FF8A00 ; 
+}
+.titulo{
+    margin:231px 20px 0px 283px;
+    color:#FFFFFF;
+    font-size: 70px;
+    font-family:'bentosfont';
+}
+.texto01{
+    font-size: 18px;
+    line-height: 1.5;
+    margin:20px 20px 0px 290px;
+    color: white;
+}
+/* Sessão Main */  
+    .mainheader{
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/arteredcerta.png');
+    background-repeat: repeat-x;
+    background-size: 300px;
+    background-position: 135px -187px;
+    width: 100%;
+    height: 114px;
+}
+.cozinha{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.cozinheiro{
+    border-radius: 8px;
+    margin:120px 45px 0px 256px;
+    width: 499px;
+    height: 560px;
+}
+.cozinhaconteudo{
+    margin:120px 45px 0px 0px;
+}
+.cozinhah1{
+    color: black;
+    margin: 0;
+    font-size: 64px;
+}
+.cozinhafontlaranja{
+    color:#B83D24 ;
+    font-size:25px;
+}
+.aguçarred{
+    color: #B83D24;
+}
+.cozinhatexto1{
+    font-size: 23px;
+}
+/* Sessão Main Pratos */
+    .pratos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    margin:55px 116px 0px 158px;
+}
+.prato01{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+.prato02{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+.prato03{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+.prato04{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+.prato05{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+.prato06{
+    border-radius:8px;
+    width: 370px;
+    height: 270px;
+}
+hr{
+position: absolute;
+width: 1133px;
+height: 0px;
+left: 161px;
+top: 2353.75px;
+border: 1px solid rgba(145, 145, 145, 0.3);
+}
+/* Sessão Main Drinks */
+    .drinks{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+}
+.drinksconteudo{
+    margin:96px -149px 0px 160px;
+}
+.drinkslaranja{
+    font-size: 18px;
+    color: #B83D24;
+}
+.drinksh1{
+    color: black;
+    font-size: 48px;
+}
+.drinksred{
+    color: #B83D24;
+}
+/* Button Cardápio */
+    button{
+    color: rgb(245, 240, 240);
+    border-style: none ;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f38c0f;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #B83D24;
+}
+.drinksbebidas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 1em;
+    margin:114px 116px 0px 158px;
+}
+.drink01{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink02{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;  
+}
+.drink03{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink04{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink05{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink06{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink07{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+.drink08{
+    border-radius:8px;
+    width: 200px;
+    height: 240px;
+}
+/* Sessão Siga Marun */
+    .sigamarunbh{
+    width: 100%;
+    margin-top: 10px;
+    background-image: url('assets/fundodourado.jpg');
+    background-repeat: no-repeat;
+}
+.marunh1{
+    color: black;
+    font-size: 60px;
+    padding:60px 0px 0px 460px;
+}
+.fundoimagens{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url('assets/artesemfundo.png');
+    background-size: 270px;
+    background-repeat: repeat-x; 
+}
+
+.boxsiga01{
+    position: relative;
+    width: 280px;
+}
+.siga01{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+.instahover{
+    width: 210px;
+    height: 210px;
+    padding:25px 30px 0px 0px;
+    opacity: 0;
+    position: absolute;
+     top: 0;
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+}
+.instahover:hover{
+    opacity: 1;
+}
+.boxsiga02{
+    position: relative;
+    width: 300px;
+}
+.siga02{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;  
+}
+.boxsiga03{
+    position: relative;
+    width: 300px;
+}
+.siga03{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+.boxsiga04{
+    position: relative;
+    width: 300px;
+}
+.siga04{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+.boxsiga05{
+    position: relative;
+    width: 300px;
+}
+.siga05{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+.boxsiga06{
+    position: relative;
+    width: 300px;
+}
+.siga06{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+.boxsiga07{
+    position: relative;
+    width: 300px;
+}
+.siga07{
+    display: block;
+    width: 210px;
+    height: 210px;
+    padding-top: 25px;
+}
+/* Sessão Informativo */
+    .informativo{
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url('assets/hero2.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.informativoconteudo{
+    
+    padding:5px 5px 5px 5px;
+    margin-left: 775px;
+    text-align: left;
+    background-color: #b83d24de;
+    width: 400px;
+    height: 595px;
+}
+.informativoh1{
+    padding-left: 28px;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 5px;
+}
+.informativotexto1{
+    font-size: 17px;
+    color: white;
+    padding:0px 15px 0px 30px;
+}
+.sigahasteg{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.informativodestacado{
+    color: white;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+}
+/* Footer */
+    .footer{
+    padding-top: 20px;
+    background-image: url('assets/artfootercortadapreta.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 308px;
+}
+li{
+    margin:15px 5px 5px 5px;
+    list-style: none;
+    margin: 10px;
+}
+.logorodape{
+    margin:39px -71px -72px 135px;
+}
+.reserva{
+    text-align: right;
+    width: 556px;
+    margin:54px 178px 16px 15px;  
+}
+.reserva, h1{
+    color: red;
+}
+.logomidias{   
+    margin-top: 54px;   
+}
+.logomidias, h1{
+    color: white;
+    font-size: 18px;
+}
+.emailcirculo{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.instacirculo{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.whatsapcirculo{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.linktree{
+    text-align: right;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+}
+.padrao{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left:50px;
+    color:white;
+}
+@media (max-width:600px){
+    .home{
+    display: flex;
+    height:150px;
+    background-color: #B83D24;
+    background-image: url('assets/artesemfundo.png');
+    background-size:150px;
+    background-repeat: repeat-x;
+    background-position: 0px 95px;
+    justify-content: space-between;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .menulink{
+        font-size: 18px;
+        text-decoration: none;
+        margin-left:30px;
+        color:white;
+    }
+    .menu{
+        background-size: cover;
+        margin:60px 25px 0px -1000px;
+        padding:2px;
+        color: white;
+    }
+    .insta{
+        padding-top: 1px;
+        margin:7px 0px 0px 100px;
+        width: 35px;
+        height: 35px;
+    } 
+    .whatsap{
+        padding-top: 1px;
+        margin:5px -175px 0px 135px;
+        width: 38px;
+        height: 38px;
+    }
+    .hero1{
+        padding: 1px;
+        background-image:url('assets/hero1.png');
+        background-size: cover;
+        width:100%;
+        height:300px; 
+    }
+    .mainheader{
+        margin: 0;
+        padding: 0;
+        background-image: url('assets/arteredcerta.png');
+        background-repeat: repeat-x;
+        background-size: 150px;
+        background-position: 100px -95px;
+        width: 100%;
+        height: 100px;
+    }
+    .titulo{
+        text-align:center;
+        margin:30px 0px 0px -70px;
+        color:#FFFFFF;
+        font-size:30px;
+        font-family:'bentosfont';
+    }
+    .texto01{  
+        font-size: 16px;
+        line-height: 1.9;
+        margin:0px 100px 0px 120px;
+        color: white;
+    }
+    .cozinha{
+        margin: auto; 
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .cozinheiro{ 
+        border-radius: 8px;
+        margin:-10px 15px 0px 30px;
+        width: 300px;
+        height: 260px;
+    }
+    .cozinhaconteudo{
+        margin:-29px 4px 5px 0px;
+    }
+    .cozinhah1{
+        color: black;
+        margin: 0;
+        font-size: 20px;
+    }
+    .cozinhafontlaranja{
+        color:#B83D24 ;
+        font-size:15px;
+    }
+    .aguçarred{
+        color: #B83D24;
+    }
+    .cozinhatexto1{
+     font-size: 15px;
+    }
+    .pratos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap:8px;
+        grid-row-gap: 1em;
+        margin:15px 100px 0px 34px;
+    }
+    .prato01{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    .prato02{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    .prato03{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    .prato04{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    .prato05{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    .prato06{
+        border-radius:8px;
+        width: 210px;
+        height: 125px;
+    }
+    hr{
+        position: absolute;
+        width: 100%;
+        left: 1px;
+        top:1300px;
+        border: 1px solid rgba(145, 145, 145, 0.3);
+        }
+        .drinks{
+            margin: auto;
+            display: flex;
+            width: 100%;
+            justify-content: space-between; 
+        }
+        .drinksconteudo{
+            margin:120px -130px 0px 32px;
+        }
+        .drinkslaranja{
+            margin-top: -20px;
+            font-size: 15px;
+            color: #B83D24;
+        }
+        .drinksh1{
+            margin-top: 80px;
+            color: black;
+            font-size: 25px;
+        }
+        .drinksred{
+            color: #B83D24;
+        }
+        /* Button Cardápio */
+            button{
+            margin-top: 68px;
+            color: rgb(245, 240, 240);
+            border-style: none ;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #f38c0f;
+            cursor: pointer;
+        }
+        .drinksbebidas{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px;
+            margin:100px 100px 0px 155px;
+        }
+        .drink01{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink02{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink03{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink04{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink05{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink06{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink07{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .drink08{
+            border-radius:8px;
+            width:110px;
+            height:150px;
+        }
+        .sigamarunbh{
+            margin-top: 10px;
+            background-image: url('assets/fundodourado.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .marunh1{
+            color: black;
+            font-size: 30px;
+            padding:40px 0px 0px 150px;
+        }
+        .fundoimagens{
+            display: flex;
+            width: 100%;
+            height:300px;
+            background-image: url('assets/artesemfundo.png');
+            background-size: 200px;
+            background-repeat: repeat-x; 
+        }
+        .boxsiga01{
+            position: relative;
+            width: 280px;
+        }
+        .siga01{
+            display: block;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+
+        .instahover{
+            width: 155px;
+            height: 155px;
+            padding:19px 30px 0px 0px;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;   
+        }
+
+        .boxsiga02{
+            position: relative;
+            width: 280px;
+        }
+        .siga02{
+            display: block;
+            width: 100%;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px; 
+        }
+        .boxsiga03{
+            position: relative;
+            width: 280px;
+        }
+        .siga03{
+            display: block;
+            width: 100%;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+        .boxsiga04{
+            position: relative;
+            width: 280px;
+        }
+        .siga04{
+            display: block;
+            width: 100%;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+        .boxsiga05{
+            position: relative;
+            width: 280px;
+        }
+        .siga05{
+            display: block;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+        .boxsiga06{
+            position: relative;
+            width: 280px;
+        }
+        .siga06{
+            display: block;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+        .boxsiga07{
+            position: relative;
+            width: 280px;
+        }
+        .siga07{
+            display: block;
+            width: 155px;
+            height: 155px;
+            padding-top: 19px;
+        }
+        .informativo{
+            display: inline-block;
+            margin: 0;
+            width: 100%;
+            height: 350px;
+            background-image: url('assets/hero2.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center right;
+        }
+        .informativoconteudo{
+            padding:15px 5px 0px 5px;
+            margin-left: 150px;
+            text-align: left;
+            background-color: #b83d24de;
+            width: 301px;
+            height: 345px;
+        }
+        .informativoh1{
+            padding-left: 15px;
+            font-size: 20px;
+            color: white;
+            padding-bottom: 5px;
+        }
+        .informativotexto1{
+            font-size: 15px;
+            color: white;
+            padding:0px 10px 0px 20px;
+        }
+        .sigahasteg{
+            padding:5px 0px 0px 25px;
+        }
+        .informativodestacado{
+            color: white;
+            /* font-weight: bold; */
+        }
+        .footer{
+            padding-top: 10px;
+            background-image: url('assets/artfootercortadapreta.png');
+            background-repeat: repeat-x;
+            background-size: 130px;
+            width: 100%;
+            height: 130px;
+        }
+        li{
+            display: flex;
+            width: 100px;
+            height: 150;
+            margin:5px 1px 1px 1px;
+            list-style: none;
+        }
+        .logorodape{
+            width: 10px;
+            height: 40px;
+            margin:5px 5px 0px -24px;  
+        }
+        .reserva{
+            text-align:center;
+            width: 20px;
+            margin:-5px 80px 5px 60px;  
+        }
+        .reserva, h1{
+            margin-top: 1px;
+            color: red;
+        }
+        .logomidias{  
+            margin-top: 30px;   
+        }
+        .logomidias, h1{
+            color: white;
+            font-size: 14px;
+        }
+        .emailcirculo{
+            height: 30px;
+            margin:0px 20px 0px 5px;
+            cursor: pointer;
+        }
+        .instacirculo{
+            height: 30px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .whatsapcirculo{
+            height:30px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .linktree{
+            margin:1px 0px 0px 85px;
+            font-size: 15px;
+            text-decoration: none;
+            color:white;
+        }
+        .padrao{
+            font-size: 5px;
+            text-decoration: none;
+            color:white;
+        }
+}
+
