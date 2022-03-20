@@ -522,15 +522,15 @@ li{
     }
     .titulo{
         text-align:center;
-        margin:30px 0px 0px -70px;
+        margin: 16px 0px 8px 20px;
         color:#FFFFFF;
         font-size:30px;
         font-family:'bentosfont';
     }
     .texto01{  
         font-size: 16px;
-        line-height: 1.9;
-        margin:0px 100px 0px 120px;
+        line-height: 1.5;
+        margin:0px 50px 0px 120px;
         color: white;
     }
     .cozinha{
