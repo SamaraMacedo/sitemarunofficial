@@ -699,7 +699,7 @@ li{
         .sigamarunbh{
             margin-top: 10px;
             background-image: url('assets/fundodourado.jpg');
-            background-size: 513px;
+            background-size: 514px;
             background-repeat: no-repeat;
         }
         .marunh1{
@@ -809,7 +809,7 @@ li{
             display: inline-block;
             margin: 0;
             width: 100%;
-            height: 347px;
+            height: 340px;
             background-image: url('assets/hero2.png');
             background-size:cover;
             background-repeat: no-repeat;
@@ -821,7 +821,7 @@ li{
             text-align: left;
             background-color: #b83d24de;
             width: 301px;
-            height: 345px;
+            height: 324px;
         }
         .informativoh1{
             padding-left: 15px;
@@ -835,7 +835,7 @@ li{
             padding:0px 10px 0px 20px;
         }
         .sigahasteg{
-            padding:5px 0px 0px 25px;
+            padding: 0px 0px 2px 20px;
         }
         .informativodestacado{
             color: white;
