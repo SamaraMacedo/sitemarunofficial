@@ -9,7 +9,4 @@ Outro ponto muito certo foi o dia de lan√ßamento do site para ter um teste poss√
 
 ![marunlayout](https://user-images.githubusercontent.com/91075479/159237529-2d30cb0e-9d87-44f9-9b42-a15d508f09e7.png)
 ![printmobilie](https://user-images.githubusercontent.com/91075479/159237804-b574dc88-ce72-47b9-87f5-d4ce80adb6ff.png)
-![codehtmlsitemarun](https://user-images.githubusercontent.com/91075479/159237857-e616e0a5-60f5-486d-b74e-e51071605c22.png)
-![codecsssitemarun](https://user-images.githubusercontent.com/91075479/159237889-94361beb-de7f-4596-85bd-1dbd1c8f3f33.png)
-![codecssmediaquerysitemarun](https://user-images.githubusercontent.com/91075479/159237899-705f154c-65b2-447b-89ee-b01464b1cf32.png)
-
+![codecss01](https://user-images.githubusercontent.com/91075479/159502413-7a529adc-1224-4689-a9c3-11f9ed221a48.png)
